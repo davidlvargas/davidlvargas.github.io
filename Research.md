@@ -4,7 +4,7 @@ permalink: "/Research/"
 layout: page
 ---
 
-## Working Papers
+## Academic publications 
 #### "Buying a Blind Eye: Campaign Donations, Forbearance, and Deforestation in Colombia"
 Joint with [Robin Harding](https://www.robinharding.org/), [Mounu Prem](https://sites.google.com/site/fcomunozma/research?authuser=0) and [Nelson A. Ruiz](https://sites.google.com/view/nruiz/home).  
 *Originally Master's Thesis*
