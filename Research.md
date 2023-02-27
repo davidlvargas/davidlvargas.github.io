@@ -9,7 +9,7 @@ layout: page
 Joint with [Robin Harding](https://www.robinharding.org/), [Mounu Prem](https://sites.google.com/site/fcomunozma/research?authuser=0) and [Nelson A. Ruiz](https://sites.google.com/view/nruiz/home).  
 *Originally Master's Thesis*
 
-August 2021 - Submitted. [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3869953)
+August 2021 - Conditionally accepted American Political Science Review. [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3869953)
 
 
 ## Policy Relevant Publications
