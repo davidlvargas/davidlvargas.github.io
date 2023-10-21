@@ -9,8 +9,17 @@ layout: page
 Joint with [Robin Harding](https://www.robinharding.org/), [Mounu Prem](https://sites.google.com/site/fcomunozma/research?authuser=0) and [Nelson A. Ruiz](https://sites.google.com/view/nruiz/home).  
 *Originally Master's Thesis*
 
-August 2021 - Conditionally accepted American Political Science Review. [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3869953)
+American Political Science Review, forthcoming. [PDF]([https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3869953](https://ora.ox.ac.uk/objects/uuid:5e612487-ceb0-459b-84a5-7d12bf977554/download_file?file_format=application%2Fpdf&safe_filename=Harding_et_al_2023_Buying_a_blind.pdf&type_of_work=Journal+article))
 
+## Work in progress 
+
+#### Re-Thinking Social Protection: From Poverty Alleviation to Building Resilience in Middle-Income Households.
+joint with Bridget Hoffmann, Esteban Alvarez, Maria P. Medina, Marco Stampini, Camilo Pecha, Jorge Gallego & Diego Vera-Cossio. 
+
+Submitted. [PDF](https://drive.google.com/file/d/15SQv-HFjERLmpLSjQ8O257q4GsOCcQ1U/view)
+
+#### Shooting a Moving Target: A Dynamic Approach to Targeting for Social Programs
+Joint with Diether Beuermann, Bridget Hoffmann and Diego Vera-Cossio
 
 ## Policy Relevant Publications
 #### "Impacts of the Ingreso Solidario program in the face of the COVID-19 crisis in Colombia"
