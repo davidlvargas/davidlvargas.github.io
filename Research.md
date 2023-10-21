@@ -10,7 +10,9 @@ Joint with [Robin Harding](https://www.robinharding.org/), [Mounu Prem](https://
 *Originally Master's Thesis*
 
   American Political Science Review, forthcoming. [PDF]([https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3869953](https://ora.ox.ac.uk/objects/uuid:5e612487-ceb0-459b-84a5-7d12bf977554/download_file?file_format=application%2Fpdf&safe_filename=Harding_et_al_2023_Buying_a_blind.pdf&type_of_work=Journal+article))
+  
   Featured in the [Washington Post](https://www.washingtonpost.com/politics/2022/07/13/colombia-petro-corruption-local-mayors-environment-infrastructure/)
+  
   NEUDC Slides: [Slides](https://www.dropbox.com/scl/fi/gbk474vyq41in0rnbnw41/Deforestation_Donations_NEUDC.pdf?rlkey=r0ixtye0ea8b9gan9500oycvh&dl=0)
 
 
