@@ -5,7 +5,7 @@ layout: page
 ---
 
 ## Academic publications 
-#### "Buying a Blind Eye: Campaign Donations, Forbearance, and Deforestation in Colombia"
+### "Buying a Blind Eye: Campaign Donations, Forbearance, and Deforestation in Colombia"
 Joint with [Robin Harding](https://www.robinharding.org/), [Mounu Prem](https://sites.google.com/site/fcomunozma/research?authuser=0) and [Nelson A. Ruiz](https://sites.google.com/view/nruiz/home).  
 *Originally Master's Thesis*
 
@@ -16,16 +16,16 @@ Featured in the [Washington Post](https://www.washingtonpost.com/politics/2022/0
 
 ## Work in progress 
 
-#### Re-Thinking Social Protection: From Poverty Alleviation to Building Resilience in Middle-Income Households.
+### "Re-Thinking Social Protection: From Poverty Alleviation to Building Resilience in Middle-Income Households."
 joint with Bridget Hoffmann, Esteban Alvarez, Maria P. Medina, Marco Stampini, Camilo Pecha, Jorge Gallego & Diego Vera-Cossio. 
 
 Submitted. [PDF](https://drive.google.com/file/d/15SQv-HFjERLmpLSjQ8O257q4GsOCcQ1U/view)
 
-#### Shooting a Moving Target: A Dynamic Approach to Targeting for Social Programs
+### "Shooting a Moving Target: A Dynamic Approach to Targeting for Social Programs"
 Joint with Diether Beuermann, Bridget Hoffmann and Diego Vera-Cossio
 
 ## Policy Relevant Publications
-#### "Impacts of the Ingreso Solidario program in the face of the COVID-19 crisis in Colombia"
+### "Impacts of the Ingreso Solidario program in the face of the COVID-19 crisis in Colombia"
 *Original in Spanish: "Impactos del programa Ingreso Solidario frente a la crisis del COVID-19 en Colombia"*
 Joint with [Jorge Gallego](https://sites.google.com/site/jagallegod/home), [Bridget Hoffmann](https://www.iadb.org/en/research-and-data/author/bridget-hoffmann), Pablo Ibarraran, Maria Paula Medina, Camilo Pecha, Marco Stampini and [Diego Vera-Cossio](https://sites.google.com/view/diegoveracossio/home).
 
