@@ -1,2 +1,2 @@
-# https-davidlvargas.github.io
+# Personal Website
 David L. Vargas - Personal Webpage
