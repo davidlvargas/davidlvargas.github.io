@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (section.style.display === "none" || section.style.display === "") {
             section.style.display = "block";
-            toggleButton.style.transform = "rotate(0deg)";
+            toggleButton.style.transform = "rotate(90deg)";
         } else {
             section.style.display = "none";
-            toggleButton.style.transform = "rotate(-90deg)";
+            toggleButton.style.transform = "rotate(0deg)";
         }
     }
 
