@@ -459,7 +459,7 @@ footer {
     }
 
     .publication-item p {
-        font-size: 0.9rem; /* Smaller font size for publication content */
+        font-size: 1rem; /* Smaller font size for publication content */
     }
 
     .publication-item .pdf-button {
