@@ -9,6 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #333;
+    max-width: 1200px;
     background: #f5f5f5;
     font-size: 18px; /* Increased font size for readability */
     margin: 0 auto;
@@ -271,7 +272,7 @@ footer {
 /* Subpages resources */
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-weight: 600;
     text-align: left; /* Align title to the left */
     margin-bottom: 1rem; /* Smaller bottom margin */
@@ -327,7 +328,6 @@ footer {
 }
 
 .publication-item .extra-info .featured {
-    font-weight: 500;
     color: #e74c3c; /* Red color to highlight the featured tag */
 }
 
@@ -348,7 +348,8 @@ footer {
     font-weight: 500;
     text-decoration: none;
     color: #fff;
-    background-color: #3498db; /* Blue background for the button */
+    /* /* background-color: #3498db; Blue background for the button  */
+    background-color: #2c3e50; /* Same as font background for the button */
     border-radius: 5px; /* Rounded corners for the button */
     transition: background-color 0.3s;
     margin-top: 0.5rem; /* Space above the button */
@@ -356,20 +357,21 @@ footer {
 }
 
 .publication-item .pdf-button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    /* background-color: #2980b9; /* Darker blue on hover */
+    background-color: #3498db; /* lighter blue on hover */
 }
 
 /* Co-authors styling */
-.coauthors {
-    font-size: 1rem;
+.publication-item .coauthors {
+    font-size: 1.05rem;
     /* font-weight: 510;  */
     /* color: #656767;  */
     /* text-indent: 20px; */
     /* margin: 0rem 2rem;  */
 }
 
-.journal {
-     font-size: 1.3rem; 
+.publication-item .journal {
+    font-size: 1.15rem; 
     font-weight: 520;
     /* color: #262a2a; */
     /* text-indent: 20px; */
@@ -456,8 +458,13 @@ footer {
     }
 
     .publication-item h3 {
-        font-size: 1.1rem; /* Smaller font size for publication titles */
+        font-size: 1.15rem; /* Smaller font size for publication titles */
     }
+
+    .publication-item .journal {
+        font-size: 1rem; 
+    }
+    
 
     .publication-item p {
         font-size: 1rem; /* Smaller font size for publication content */
