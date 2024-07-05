@@ -240,6 +240,10 @@ footer {
         text-align: left; /* better for mobile */
     }
 
+    .intro-text p {
+        text-align: left; /* better for mobile */
+    }
+
     .photo-container {
         width: 70%;
     }
