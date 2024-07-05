@@ -237,6 +237,7 @@ footer {
     .intro-text {
         font-size: 1.1rem;
         line-height: 1.6;
+        text-align: left; /* better for mobile */
     }
 
     .photo-container {
