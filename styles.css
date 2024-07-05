@@ -297,6 +297,7 @@ footer {
 }
 
 .publication-item h3 {
+    text-align: left; /* Better for mobile no harm otherwise */
     font-size: 1.5rem;
     color: #2c3e50;
     margin-bottom: 0.5rem;
