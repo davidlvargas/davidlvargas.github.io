@@ -103,7 +103,7 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
-    width: calc(100% - 20px); /* Adjust as needed */
+    width: calc(100% + 10px); /* Adjust as needed */
 }
 
 .container {
@@ -147,6 +147,7 @@ main {
 .intro-text p {
     font-size: 1.2rem; /* Increased font size */
     font-weight: 300;
+    color: #1a1a1a; /* better for reading */
     line-height: 1.5; /* More spacing between lines */
     text-align: justify; /* Justify the text */
     margin-right: 30px; /* Increase the right margin */
