@@ -131,28 +131,31 @@ main {
     width: 35%; /* Made the photo container smaller */
     max-width: 400px; /* Set a maximum width for the photo container */
     margin-bottom: 1.5rem; /* Add space below the photo for smaller screens */
+    margin-top: 1.5rem;
 }
 
 .photo-container img {
-    width: 80%;
+    width: 90%;
     height: auto;
     object-fit: cover;
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 5px; /* Rounded corners */
     border: 0px solid #2c3e50;
 }
 
 .intro-text {
     flex: 1;
     min-width: 280px; /* Ensures text doesn't get too narrow */
+    align-items: center;
 }
 
 .intro-text p {
+    height: auto;
     font-size: 1.1rem; /* Increased font size */
     /* font-weight: 400; */
     color: #1a1a1a; /* better for reading */
-    line-height: 1.5; /* More spacing between lines */
+    line-height: 1.4; /* More spacing between lines */
     text-align: justify; /* Justify the text */
-    margin-right: 30px; /* Increase the right margin */
+    margin-right: 35px; /* Increase the right margin */
 }
 
 /* Social Links */
