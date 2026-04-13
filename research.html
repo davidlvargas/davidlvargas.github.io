@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David L. Vargas - Publications</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260412">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- FontAwesome for icons -->
-    <script defer src="script.js"></script> <!-- Add JavaScript file -->
+    <script defer src="script.js?v=20260412"></script> <!-- Add JavaScript file -->
+    <style>
+        .publication-item { display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 2rem; }
+        .pub-body { display: flex; flex-direction: row; gap: 1.5rem; align-items: center; }
+        .pub-figure { flex: 0 0 380px; max-width: 380px; }
+        .pub-figure img { width: 100%; display: block; border: none; border-radius: 6px; box-shadow: none; mix-blend-mode: multiply; }
+        .pub-content { flex: 1; min-width: 0; }
+        h3.sub-toggle { font-size: 1.2rem; color: #2c3e50; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 1rem; margin-bottom: 0.5rem; user-select: none; font-weight: 600; }
+        h3.sub-toggle i { transition: transform 0.3s; font-size: 0.9rem; }
+        h3.sub-toggle:hover { color: #3498db; }
+        .publication-item .coauthors a { color: #3498db; text-decoration: none; }
+        .publication-item .coauthors a:hover { text-decoration: underline; }
+        .toggle-abstract { display: inline-block; padding: 0; background: none; border: none; color: #3498db; font-size: 0.92rem; font-family: inherit; cursor: pointer; text-decoration: underline; }
+        .toggle-abstract:hover { color: #2c3e50; }
+        .publication-item > .pdf-button { align-self: flex-start; }
+        .button-row { display: flex; flex-direction: row; flex-wrap: wrap; gap: 0.5rem; align-self: flex-start; }
+        @media (max-width: 768px) {
+            .pub-body { flex-direction: column; gap: 0.75rem; }
+            .pub-figure { flex: none; width: 100%; max-width: 100%; }
+            .publication-item { margin-bottom: 2rem; }
+            .publication-list { margin-left: 0; margin-right: 0; }
+        }
+        @media (max-width: 480px) {
+            .pub-figure { max-width: 90%; margin: 0 auto; }
+            .publication-item h3 { font-size: 1.1rem; }
+            .publication-item p { font-size: 0.95rem; }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -42,26 +69,40 @@
 
                 <div class="publication-item">
                     <h3>Shooting a Moving Target: Evaluating Targeting Tools for Social Programs When Income Fluctuates</h3>
-                    <p class="journal"> Journal of Development Economics, Volume 172, January 2025, 103395 </p> 
-                    <p class="coauthors"> Joint with: Diether Beuermann, <a href="https://sites.google.com/view/bridgethoffmann/home?authuser=0" target="_blank">Bridget Hoffmann</a>, Marco Stampini, and <a href="https://sites.google.com/view/diegoveracossio/home" target="_blank">Diego Vera-Cossio</a>. </p>
-                    <p>A key challenge for policymakers in low- and middle-income countries is to design a method to select beneficiaries of social programs when income is unobservable and volatile. We use a unique panel dataset of a random sample of households in Colombia's social registry that contains information before, during, and after the 2020 economic crisis to evaluate a traditional static proxy-means test (PMT) and three policy-relevant alternatives.</p>
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0304387824001445" target="_blank" class="pdf-button">Journal link</a>
-                    <a href="https://www.dropbox.com/scl/fi/l7uhjge7abceiob2bzi9i/SMT.pdf?rlkey=pig9c00bh2zmz0vqscwvxv7vl&st=nf0dhh3r&dl=0" target="_blank" class="pdf-button">PDF</a>
-                    <a href="https://ars.els-cdn.com/content/image/1-s2.0-S0304387824001445-mmc1.pdf" target="_blank" class="pdf-button">Online Appendix</a>
+                    <div class="pub-body">
+                        <div class="pub-figure">
+                            <img src="Images/smt_thumb.png" alt="Shooting a Moving Target">
+                        </div>
+                        <div class="pub-content">
+                            <p class="journal"> Journal of Development Economics, Volume 172, January 2025, 103395 </p>
+                            <p class="coauthors"> Joint with: <a href="https://sites.google.com/view/bridgethoffmann/home?authuser=0" target="_blank">Bridget Hoffmann</a>, <a href="https://sites.google.com/view/diegoveracossio/home" target="_blank">Diego Vera-Cossio</a>, Diether Beuermann, and Marco Stampini.</p>
+                            <p>A key challenge for policymakers in low- and middle-income countries is to design a method to select beneficiaries of social programs when income is unobservable and volatile. We use a unique panel dataset of a random sample of households in Colombia's social registry that contains information before, during, and after the 2020 economic crisis to evaluate a traditional static proxy-means test (PMT) and three policy-relevant alternatives.</p>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0304387824001445" target="_blank" class="pdf-button">Journal link</a>
+                            <a href="https://www.dropbox.com/scl/fi/l7uhjge7abceiob2bzi9i/SMT.pdf?rlkey=pig9c00bh2zmz0vqscwvxv7vl&st=nf0dhh3r&dl=0" target="_blank" class="pdf-button">PDF</a>
+                            <a href="https://ars.els-cdn.com/content/image/1-s2.0-S0304387824001445-mmc1.pdf" target="_blank" class="pdf-button">Online Appendix</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="publication-item">
                     <h3>Buying a Blind Eye: Campaign Donations, Regulatory Enforcement, and Deforestation</h3>
-                    <p class="journal"> American Political Science Review, 2024, 118(2), 635-653. </p> 
-                    <p class="coauthors"> Joint with: <a href="https://www.robinharding.org" target="_blank">Robin Harding</a>, <a href="https://sites.google.com/site/fcomunozma/home?authuser=0" target="_blank">Mounu Prem</a>, and <a href="https://sites.google.com/view/nruiz/home" target="_blank">Nelson A. Ruiz</a></p>
-                    <p><i>[Originally Master's Thesis]</i> While existing work has demonstrated that campaign donations can buy access to benefits such as favorable legislation and preferential contracting, we highlight another use of campaign contributions: buying reductions in regulatory enforcement. Specifically, we argue that in return for campaign contributions, Colombian mayors who rely on donor-funding (compared with those who do not) choose not to enforce sanctions against illegal deforestation activities.</p>
-                    <div class="extra-info">
-                           <span class="featured">Featured in: <a href="https://www.washingtonpost.com/politics/2022/07/13/colombia-petro-corruption-local-mayors-environment-infrastructure/" target="_blank">The Washington Post</a> </span>
+                    <div class="pub-body">
+                        <div class="pub-figure">
+                            <img src="Images/babe_thumb.png" alt="Buying a Blind Eye">
+                        </div>
+                        <div class="pub-content">
+                            <p class="journal"> American Political Science Review, 2024, 118(2), 635-653. </p>
+                            <p class="coauthors"> Joint with: <a href="https://www.robinharding.org" target="_blank">Robin Harding</a>, <a href="https://sites.google.com/site/fcomunozma/home?authuser=0" target="_blank">Mounu Prem</a>, and <a href="https://sites.google.com/view/nruiz/home" target="_blank">Nelson A. Ruiz</a></p>
+                            <p><i>[Originally Master's Thesis]</i> While existing work has demonstrated that campaign donations can buy access to benefits such as favorable legislation and preferential contracting, we highlight another use of campaign contributions: buying reductions in regulatory enforcement. Specifically, we argue that in return for campaign contributions, Colombian mayors who rely on donor-funding (compared with those who do not) choose not to enforce sanctions against illegal deforestation activities.</p>
+                            <div class="extra-info">
+                                <span class="featured">Featured in: <a href="https://www.washingtonpost.com/politics/2022/07/13/colombia-petro-corruption-local-mayors-environment-infrastructure/" target="_blank">The Washington Post</a> </span>
+                            </div>
+                            <a href="https://www.cambridge.org/core/journals/american-political-science-review/article/buying-a-blind-eye-campaign-donations-regulatory-enforcement-and-deforestation/C1FF4974236ABA65F4842194003C71C9" target="_blank" class="pdf-button">Journal link</a>
+                            <a href="https://www.dropbox.com/scl/fi/jv8ejo6akxnicje1dvil2/Harding-et-al-2024-APSR-Buying-a-Blind-Eye.pdf?rlkey=wyg0rbwzzn29tw1yqxjrwgmyx&dl=0" target="_blank" class="pdf-button">PDF</a>
+                            <a href="https://www.dropbox.com/scl/fi/c4lqekx26u5h2vrcl3kz5/Harding-et-al-2024-APSR-Online-appendix.pdf?rlkey=os0u9ovxnuvo0m8f9m52z9cry&dl=0" target="_blank" class="pdf-button">Online Appendix</a>
+                            <a href="https://www.dropbox.com/scl/fi/gbk474vyq41in0rnbnw41/Deforestation_Donations_NEUDC.pdf?rlkey=r0ixtye0ea8b9gan9500oycvh&dl=0" target="_blank" class="pdf-button">Slides NEUDC (WP)</a>
+                        </div>
                     </div>
-                    <a href="https://www.cambridge.org/core/journals/american-political-science-review/article/buying-a-blind-eye-campaign-donations-regulatory-enforcement-and-deforestation/C1FF4974236ABA65F4842194003C71C9" target="_blank" class="pdf-button">Journal link</a>
-                    <a href="https://www.dropbox.com/scl/fi/jv8ejo6akxnicje1dvil2/Harding-et-al-2024-APSR-Buying-a-Blind-Eye.pdf?rlkey=wyg0rbwzzn29tw1yqxjrwgmyx&dl=0" target="_blank" class="pdf-button">PDF</a>
-                    <a href="https://www.dropbox.com/scl/fi/c4lqekx26u5h2vrcl3kz5/Harding-et-al-2024-APSR-Online-appendix.pdf?rlkey=os0u9ovxnuvo0m8f9m52z9cry&dl=0" target="_blank" class="pdf-button">Online Appendix</a>
-                    <a href="https://www.dropbox.com/scl/fi/gbk474vyq41in0rnbnw41/Deforestation_Donations_NEUDC.pdf?rlkey=r0ixtye0ea8b9gan9500oycvh&dl=0" target="_blank" class="pdf-button">Slides NEUDC (WP)</a>
                 </div>
                 
                 <!-- Add more publication items as needed -->
@@ -72,11 +113,18 @@
                 
                 <div class="publication-item">
                     <h3>Social Protection, Short-term Debt, and Access to Credit</h3>
-                    <p class="journal"> R&R - American Economic Journal: Applied Economics. </p>
-                    <p class="coauthors"> Joint with: Bridget Hoffmann, Esteban Alvarez, Maria P. Medina, Marco Stampini, Camilo Pecha, Jorge Gallego and <a href="https://sites.google.com/view/diegoveracossio/home" target="_blank">Diego Vera-Cossio</a>. </p>
-                    <p>We exploit an expansion in social protection to middle-income households to study how they cope with economic shocks and how to build their resilience. We use a re- gression discontinuity design around the eligibility cutoff for a program that delivered monthly cash transfers mainly through bank accounts in Colombia. We find no impacts on food security, education, and health outcomes—the target outcomes of antipoverty programs. In contrast, program eligibility increases non-food consumption and reduces debt for routine expenses.</p>
-                    <a href="https://www.dropbox.com/scl/fi/hz1uoai512rz4pxfbxk9v/MiddleClass.pdf?rlkey=g8g5r2mphqcwqz4l29dbwrek7&dl=0" target="_blank" class="pdf-button">WP PDF</a>
-                    <a href="https://www.dropbox.com/scl/fi/9w0e95gel8pf3h9looc8l/middle_class_ECINEQ.pdf?rlkey=i7222aepqdftz2suil2dcrtpd&dl=0" target="_blank" class="pdf-button">Slides ECINEQ (WP)</a>
+                    <div class="pub-body">
+                        <div class="pub-figure">
+                            <img src="Images/middleclass_thumb.png" alt="Social Protection, Short-term Debt, and Access to Credit">
+                        </div>
+                        <div class="pub-content">
+                            <p class="journal"> R&R - American Economic Journal: Applied Economics. </p>
+                            <p class="coauthors"> Joint with: <a href="https://sites.google.com/view/bridgethoffmann/home?authuser=0" target="_blank">Bridget Hoffmann</a>, <a href="https://sites.google.com/view/diegoveracossio/home" target="_blank">Diego Vera-Cossio</a>, Esteban Alvarez, Jorge Gallego, Maria P. Medina, Camilo Pecha, and Marco Stampini.</p>
+                            <p>We exploit an expansion in social protection to middle-income households to study how they cope with economic shocks and how to build their resilience. We use a regression discontinuity design around the eligibility cutoff for a program that delivered monthly cash transfers mainly through bank accounts in Colombia. We find no impacts on food security, education, and health outcomes—the target outcomes of antipoverty programs. In contrast, program eligibility increases non-food consumption and reduces debt for routine expenses.</p>
+                            <a href="https://www.dropbox.com/scl/fi/hz1uoai512rz4pxfbxk9v/MiddleClass.pdf?rlkey=g8g5r2mphqcwqz4l29dbwrek7&dl=0" target="_blank" class="pdf-button">WP PDF</a>
+                            <a href="https://www.dropbox.com/scl/fi/9w0e95gel8pf3h9looc8l/middle_class_ECINEQ.pdf?rlkey=i7222aepqdftz2suil2dcrtpd&dl=0" target="_blank" class="pdf-button">Slides ECINEQ (WP)</a>
+                        </div>
+                    </div>
                 </div>
                 
                 <!-- Add more publication items as needed -->
@@ -93,30 +141,51 @@
                     </div>
                     <a href="link-to-pdf1.pdf" target="_blank" class="pdf-button">View PDF</a>
                 </div> -->
+                <div class="publication-item">
+                    <h3>Healthcare Demand, Climate Adaptation, and the Welfare State</h3>
+                </div>
                 <!-- Add more work in progress items as needed -->
             </div>
 
             <!-- Policy and Other Section -->
-            <h2 class="section-title" id="togglePolicy" onclick="toggleSection('policyAndOtherContent')">Policy and Other <i class="fas fa-chevron-right"></i></h2>
-            <div class="publication-list" id="policyAndOtherContent" style="display: none;">
+            <h2 class="section-title">Policy and Other</h2>
+            <div class="publication-list">
+
+                <div class="publication-item">
+                    <h3>Climate Change Adaptation and Development: A Conceptual Framework</h3>
+                    <p class="journal">IZA Discussion Paper No. 18464, March 2026</p>
+                    <p class="coauthors">Joint with: <a href="https://www.worldbank.org/en/about/people/r/romina-cavatassi" target="_blank">Romina Cavatassi</a>, <a href="https://www.teevratgarg.com" target="_blank">Teevrat Garg</a>, <a href="https://www.joshgraffzivin.com" target="_blank">Joshua Graff Zivin</a>, <a href="https://www.worldbank.org/en/about/people/a/adriana-paolantonio" target="_blank">Adriana Paolantonio</a>, and <a href="https://www.worldbank.org/en/about/people/p/philip-randolph-wollburg" target="_blank">Philip Randolph Wollburg</a>.</p>
+                    <p>Climate change is reshaping the economic environment in which households make decisions, generating diverse adaptive responses and increasing the need for data that can guide effective policy. Yet current measurement efforts remain fragmented, reflecting two key gaps: limited systematic data on household adaptation and the lack of a structured framework to interpret it. This paper addresses both by developing a literature-informed framework for diagnosing household-level climate adaptation, focusing on adjustments in income-generating activities as a primary response to climate risk.</p>
+                    <div class="button-row">
+                        <a href="https://www.iza.org/publications/dp/18464/climate-change-adaptation-and-development-a-conceptual-framework" target="_blank" class="pdf-button">IZA link</a>
+                        <a href="https://www.dropbox.com/scl/fi/i40ltdklvrrtfp8ac73uk/Adpatation_framework.pdf?rlkey=7t8er6dzfmqp0n93jzgm4rv0x&st=akfom1nt&dl=0" target="_blank" class="pdf-button">PDF</a>
+                    </div>
+                </div>
+
                 <div class="publication-item">
                     <h3>Impacts of the Ingreso Solidario program in the face of the COVID-19 crisis in Colombia</h3>
-                    <!-- <p class="coauthors"> Joint with: Jorge Gallego, Bridget Hoffmann, Pablo Ibarraran, Maria Paula Medina, Camilo Pecha, Marco Stampini and <a href="https://sites.google.com/view/diegoveracossio/home" target="_blank">Diego Vera-Cossio</a>. </p> -->
-                    <p>Original in Spanish: “Impactos del programa Ingreso Solidario frente a la crisis del COVID-19 en Colombia”</p>
-                    <p>[Inter-America Development Bank Technical Note] In this document, we present the results of the evaluation of Ingreso Solidario in Colombia, an unconditional cash transfer program aimed at poor and vulnerable households that did not benefit from pre-existing programs before the pandemic.</p>
+                    <p class="journal">Inter-American Development Bank Technical Note</p>
+                    <p class="coauthors">Joint with: <a href="https://sites.google.com/view/bridgethoffmann/home?authuser=0" target="_blank">Bridget Hoffmann</a>, <a href="https://sites.google.com/view/diegoveracossio/home" target="_blank">Diego A. Vera-Cossio</a>, Jorge Gallego, Pablo Ibarrarán, María Paula Medina, Camilo Pecha, Olga Romero, and Marco Stampini.</p>
+                    <p>Original in Spanish: "Impactos del programa Ingreso Solidario frente a la crisis del COVID-19 en Colombia." In this document, we present the results of the evaluation of Ingreso Solidario in Colombia, an unconditional cash transfer program aimed at poor and vulnerable households that did not benefit from pre-existing programs before the pandemic.</p>
                     <a href="https://publications.iadb.org/es/impactos-del-programa-ingreso-solidario-frente-la-crisis-del-covid-19-en-colombia" target="_blank" class="pdf-button">View PDF</a>
                 </div>
-                <div class="publication-item">
-                    <h3>September 2020 PovcalNet Update</h3>
-                    <p>[World Bank Global Poverty Monitoring Technical Note] The September 2020 update to PovcalNet mainly involves the adoption of the revised 2011 PPPs for the estimation of global poverty.</p>
-                    <a href="link-to-pdf2.pdf" target="_blank" class="pdf-button">WB repo</a>
+
+                <h3 class="sub-toggle" id="toggleOther" onclick="toggleSection('otherContent')">Other <i class="fas fa-chevron-right"></i></h3>
+                <div id="otherContent" style="display: none;">
+                    <div class="publication-item">
+                        <h3>September 2020 PovcalNet Update</h3>
+                        <p class="journal">World Bank Global Poverty Monitoring Technical Note</p>
+                        <p>The September 2020 update to PovcalNet mainly involves the adoption of the revised 2011 PPPs for the estimation of global poverty.</p>
+                        <a href="link-to-pdf2.pdf" target="_blank" class="pdf-button">WB repo</a>
+                    </div>
+                    <div class="publication-item">
+                        <h3>March 2020 PovcalNet Update</h3>
+                        <p class="journal">World Bank Global Poverty Monitoring Technical Note</p>
+                        <p>The March 2020 update to PovcalNet involves several changes to the data underlying the global poverty estimates.</p>
+                        <a href="https://openknowledge.worldbank.org/entities/publication/3c7b9e25-d17f-54d8-ae52-3011d064e6c1" target="_blank" class="pdf-button">WB repo</a>
+                    </div>
                 </div>
-                <div class="publication-item">
-                    <h3>March 2020 PovcalNet Update</h3>
-                    <p>[World Bank Global Poverty Monitoring Technical Note] The March 2020 update to PovcalNet involves several changes to the data underlying the global poverty estimates.</p>
-                    <a href="https://openknowledge.worldbank.org/entities/publication/3c7b9e25-d17f-54d8-ae52-3011d064e6c1" target="_blank" class="pdf-button">WB repo</a>
-                </div>
-                <!-- Add more policy and other items as needed -->
+
             </div>
         </div>
     </main>
